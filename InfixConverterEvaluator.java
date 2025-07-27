@@ -229,7 +229,7 @@ public class InfixConverterEvaluator
                     int hasilPostfix = evaluatePostfix(postfix);
                     int hasilPrefix = evaluatePrefix(prefix);
 
-                    System.out.println("\n✅ Konversi dan Evaluasi Berhasil:");
+                    System.out.println("Konversi dan Evaluasi Berhasil:");
                     System.out.println("Infix   : " + infixInput);
                     System.out.println("Postfix : " + postfix);
                     System.out.println("Prefix  : " + prefix);
